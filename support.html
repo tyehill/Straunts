@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Straunts Support</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 { color: #222; margin-bottom: 10px; }
+        h2 { color: #222; margin-top: 36px; }
+        h3 { color: #222; margin-top: 24px; }
+        .updated { color: #666; font-size: 14px; margin-bottom: 30px; }
+        .back-link { display: inline-block; margin-bottom: 20px; color: #007aff; text-decoration: none; }
+        .back-link:hover { text-decoration: underline; }
+        code { background: #f2f2f2; padding: 2px 5px; border-radius: 4px; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <a class="back-link" href="index.html">&larr; Back to Straunts</a>
+
+    <h1>Support</h1>
+    <p>Welcome! This page has answers to common questions and troubleshooting tips for Straunts.</p>
+
+    <h2>FAQ</h2>
+
+    <h3>How does sync work?</h3>
+    <p>Your restaurants, ratings, and notes sync across your devices via iCloud automatically. Each device signed in to the same iCloud account will stay in sync.</p>
+    <p><strong>Note:</strong> Individual visit details like companions, dishes, and photos don't sync yet &mdash; use the Export Backup feature to transfer those to a new device.</p>
+
+    <h3>How do I back up my data?</h3>
+    <p>Go to <strong>Settings &gt; Data &amp; Backup &gt; Export Backup</strong>. This creates a JSON file with everything &mdash; restaurants, ratings, notes, tags, visits, companions, dishes, and photos. Save it anywhere and restore it anytime from the same menu.</p>
+
+    <h3>Can I use this on multiple devices?</h3>
+    <p>Yes! Sign in with the same iCloud account on each device and your restaurants and ratings will sync automatically. Use <strong>Export Backup</strong> to move visit details (dishes, companions, photos) between devices.</p>
+
+    <h3>What if something looks out of sync?</h3>
+    <p>Go to <strong>Settings &gt; Data &amp; Backup</strong> and tap "Sync Now" to manually refresh. If you're still not seeing changes, make sure you're signed in to iCloud in <strong>Settings &gt; [Your Name] &gt; iCloud</strong>.</p>
+
+    <h3>Can I add photos to my restaurants?</h3>
+    <p>Photos aren't available yet, but it's on the roadmap! The app currently lets you track visits, rate dishes, and take notes about your experience.</p>
+
+    <h2>Troubleshooting</h2>
+
+    <h3>iCloud sync isn't working</h3>
+    <ul>
+        <li>Make sure you're signed in to iCloud (<strong>Settings &gt; [Your Name] &gt; iCloud</strong>)</li>
+        <li>Check that you have a stable internet connection</li>
+        <li>Try tapping <strong>"Sync Now"</strong> in <strong>Settings &gt; Data &amp; Backup</strong></li>
+        <li>Force-close the app and reopen it</li>
+    </ul>
+
+    <h3>I restored a backup and lost data</h3>
+    <p>Restore merges with existing data &mdash; it doesn't replace it. If you restored the wrong backup, restore the correct one again to merge it back in.</p>
+
+    <h3>The app crashed</h3>
+    <ol>
+        <li>Force-close the app and reopen it</li>
+        <li>If it keeps crashing, try exporting a backup (<strong>Settings &gt; Data &amp; Backup &gt; Export Backup</strong>)</li>
+        <li>Force-close again and restore the backup (<strong>Settings &gt; Data &amp; Backup &gt; Restore from Backup</strong>)</li>
+        <li>If that doesn't help, reach out with details (see Contact Us below)</li>
+    </ol>
+
+    <h3>A restaurant isn't showing up</h3>
+    <ul>
+        <li>Try scrolling down to see if it's below the fold</li>
+        <li>Use the search bar to find it by name</li>
+        <li>Try tapping <strong>"Sync Now"</strong> in Settings if you recently added it on another device</li>
+    </ul>
+
+    <h3>Export Backup shows as disabled</h3>
+    <p>The Export Backup button is disabled when you have no restaurants saved. Add a restaurant first and try again.</p>
+
+    <h2>Privacy &amp; Data</h2>
+    <p><strong>Your data is yours.</strong> Everything is stored locally on your device and synced privately via iCloud. We don't have access to your data, and we don't collect analytics or usage information.</p>
+    <p>When you export a backup, the file is saved to your device and shared only if you choose to share it.</p>
+
+    <h2>Contact Us</h2>
+    <p>Have a bug to report or a feature idea? We'd love to hear from you!</p>
+    <p>&#128231; <strong>Email:</strong> <a href="mailto:feedback@straunts.app">feedback@straunts.app</a></p>
+    <p>Include as much detail as you can:</p>
+    <ul>
+        <li>What you were trying to do</li>
+        <li>What happened instead</li>
+        <li>Your device and iOS version</li>
+        <li>Whether you're signed in to iCloud</li>
+        <li>Steps to reproduce (if it's a bug)</li>
+    </ul>
+
+    <h2>Feature Roadmap</h2>
+    <p>Check out <a href="https://github.com/tyehill/restaurantraters/blob/main/ROADMAP.md">ROADMAP.md</a> for what's coming next, including:</p>
+    <ul>
+        <li>Replacing Google Places with MapKit + user photos</li>
+        <li>Cuisine suggestions via Apple Intelligence</li>
+        <li>Photo support with iCloud sync</li>
+        <li>And more</li>
+    </ul>
+
+    <h2>Known Limitations</h2>
+    <ul>
+        <li>Companion and dish details don't sync across devices yet (use Export Backup to move them)</li>
+        <li>Photos aren't supported yet</li>
+        <li>Map search works best in the US; international results may be limited</li>
+    </ul>
+</body>
+</html>
